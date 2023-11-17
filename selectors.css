@@ -1,0 +1,25 @@
+div~section{
+    color: red;
+    
+}
+
+h1::after{
+    content: " ....247 feel like he is a DON";
+}
+h1::before{
+    content:"Hey bro...";
+}
+h1::first-letter{
+    color:blueviolet;
+}
+h1::first-line{
+    color:burlywood;
+    background-color: black;
+}
+li::marker{
+    content: "🔫";
+}
+li::selection{
+    color: blue;
+    background-color: yellow;
+}
