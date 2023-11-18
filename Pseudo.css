@@ -1,0 +1,25 @@
+a:link{
+    color: orangered;
+}
+
+a:visited{
+    color: brown;
+}
+
+a:hover{
+    color: greenyellow;
+}
+
+a:active{
+    color: black;
+}
+p:first-child{
+    color: aquamarine;
+}
+p:last-child{
+    background-color: mediumseagreen;
+}
+
+p:nth-child(even){
+    background-color:gold;
+}
