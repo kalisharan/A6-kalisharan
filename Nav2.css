@@ -1,0 +1,43 @@
+nav{
+    border: 5px solid black;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+.hii{
+
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    width: 80%;
+}
+
+.hello{
+    width: 20%;
+    display: flex;
+    justify-content: space-evenly ;
+    align-items: center;
+}
+nav1{
+    border: 5px solid black;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    background-color:blue;
+    color: white;
+}
+.hii{
+
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    width: 80%;
+}
+.hello{
+    width: 20%;
+    display: flex;
+    justify-content: space-evenly ;
+    align-items: center;
+}
