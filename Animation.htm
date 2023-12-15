@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: white;
+            
+        }
+        div{
+            height: 200px;
+            width: 200px;
+            background-color: gray;
+            animation-name: animechange ;
+            animation-duration: 5s;
+            position: relative;
+            animation-timing-function:cubic-bezier(0.25, 0.46, 0.45, 0.94);
+            animation-direction:alternate-reverse;
+            animation-iteration-count: infinite;
+            border-radius: 100%;
+            animation-fill-mode: forwards;
+        }
+        @keyframes animechange {
+            0%{
+                top: 0;
+                left: 0;
+                background-color: blue;
+            }
+            25%{
+                top: 0;
+                left: 500px;
+                background-color: brown;
+            }
+            50%{
+                top: 500px;
+                left: 500px;
+                background-color: green;
+            }
+            75%{
+                top: 500px;
+                left: 0;
+                background-color: yellow;
+            }
+            100%{
+                top: 0;
+                left: 0;
+                background-color: black;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <img height="300px" width="400px" src="https://img.freepik.com/premium-vector/realistic-sport-ball-3d-equipment-football-isolated-round-shape-with-geometric-classic-print-inflatable-sphere-active-outdoor-games-vector-soccer-championship-logo-template_176516-2937.jpg" alt="">
+    </div>
+</body>
+</html>
